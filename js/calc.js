@@ -127,7 +127,7 @@ var calculate = function() {
 	// USB
 	var usb = Number(document.querySelector("input[name=usb]:checked").value);
 
-	document.getElementById("total").innerHTML = String(Number((base + num_keys * total_multiplier + rgb_total + encoder_total + usb + oled_total) * 15).toLocaleString());
+	document.getElementById("total").innerHTML = String(Number((base + num_keys * total_multiplier + rgb_total + encoder_total + usb + oled_total) * 17.5).toLocaleString());
 };
 
 document.getElementById("submit-button").onclick = function() {
